@@ -1,0 +1,62 @@
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+$bg: hsl(217, 54%, 11%);
+$card-bg: hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  background-color: $bg;
+  color: white;
+}
+.nft-name {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.card {
+  background-color: $card-bg;
+  border-radius: 16px;
+}
+.detail {
+  color: $soft-blue;
+  font-size: 14px;
+}
+.price-text {
+  white-space: break-spaces;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: $cyan;
+}
+.time-left-text {
+  white-space: break-spaces;
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  color: $soft-blue;
+}
+.avatar {
+  max-height: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.creator-text {
+  display: flex;
+  white-space: break-spaces;
+  font-size: 13px;
+  align-items: center;
+  margin-left: 12px;
+}
+.color-soft-blue {
+  color: $soft-blue;
+}
+.divider {
+  border-top: 1px solid #373838 !important;
+  margin: 15px 0px;
+}
